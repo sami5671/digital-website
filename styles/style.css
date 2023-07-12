@@ -138,13 +138,29 @@ button:hover {
     linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
   background-repeat: no-repeat;
   background-blend-mode: overlay;
+
   color: white;
 }
 .all-footer-info {
   width: 70%;
   height: 70vh;
   display: flex;
-
   align-items: center;
   justify-content: space-around;
+  padding-left: 150px;
+  gap: 50px;
+}
+.contact {
+  margin-bottom: 10px;
+}
+.class {
+  margin-top: 50px;
+}
+.class-1 {
+  font-size: 50px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  line-height: 30px;
 }
